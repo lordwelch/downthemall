@@ -16,7 +16,7 @@
     }
 
   </style>
-  <title data-i18n="prefs.title">DownThemAll! - Preferences</title>
+  <title data-i18n="prefs.title">TraitorousDownloading! - Preferences</title>
   <link rel="icon" href="/style/icon32.png">
   <link rel="icon" sizes="16x16" href="/style/icon16.png">
   <link rel="icon" sizes="32x32" href="/style/icon32.png">
@@ -49,7 +49,7 @@
           <label><input type="radio" name="pref-button-type" value="popup"> <span data-i18n="pref-button-type-popup"></span></label>
           <label><input type="radio" name="pref-button-type" value="dta"> <span data-i18n="pref-button-type-dta"></span></label>
           <label><input type="radio" name="pref-button-type" value="turbo"> <span data-i18n="pref-button-type-turbo"></span></label>
-          <label><input type="radio" name="pref-button-type" value="manager"> <span data-i18n="pref-button-type-manager"></span></label>
+          <label style="display: none;"><input type="radio" name="pref-button-type" value="manager"> <span data-i18n="pref-button-type-manager"></span></label>
         </div>
         <label data-i18n="pref-theme"></label>
         <div id="pref-theme">
@@ -59,7 +59,7 @@
           </div>
         </div>
       <hr>
-      <label><input type="checkbox" id="pref-manager-in-popup"> <span data-i18n="pref-manager-in-popup"></span></label>
+      <label style="display: none;"><input type="checkbox" id="pref-manager-in-popup"> <span data-i18n="pref-manager-in-popup"></span></label>
       <label><input type="checkbox" id="pref-finish-notification"> <span data-i18n="pref-finish-notification"></span></label>
       <label><input type="checkbox" id="pref-sounds"> <span data-i18n="pref-sounds"></span></label>
       <label><input type="checkbox" id="pref-hide-context"> <span data-i18n="pref-hide-context"></span></label>
@@ -68,15 +68,16 @@
         <button id="reset-layout" data-i18n="reset-layouts"></button>
       </div>
     </fieldset>
-    <fieldset>
+    <fieldset style="display: none;">
       <legend data-i18n="pref.manager">Manager</legend>
       <label><input type="checkbox" id="pref-tooltip"> <span data-i18n="pref-manager-tooltip"></span></label>
       <label><input type="checkbox" id="pref-show-urls"> <span data-i18n="pref-show-urls"></span></label>
     </fieldset>
     <fieldset>
       <legend data-i18n="pref.queueing">Queueing Downloads</legend>
+      <label><input type="checkbox" id="pref-cookies"> <span data-i18n="pref-cookies"></span></label>
       <label><input type="checkbox" id="pref-queue-notification"> <span data-i18n="pref-queue-notification"></span></label>
-      <label><input type="checkbox" id="pref-open-manager-on-queue"> <span data-i18n="pref-open-manager-on-queue"></span></label>
+      <label style="display: none;"><input type="checkbox" id="pref-open-manager-on-queue"> <span data-i18n="pref-open-manager-on-queue"></span></label>
       <label><input type="checkbox" id="pref-text-links"> <span data-i18n="pref-text-links"></span></label>
       <label><input type="checkbox" id="pref-add-paused"> <span data-i18n="pref-add-paused"></span></label>
       <label><input type="checkbox" id="pref-remove-missing-on-init"> <span data-i18n="pref-remove-missing-on-init"></span></label>

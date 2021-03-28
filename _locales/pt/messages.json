@@ -232,27 +232,27 @@
     "description": "Download (verb/action); e.g. in single and select buttons"
   },
   "dta_regular": {
-    "message": "DownThemAll!",
+    "message": "TraitorousDownloading!",
     "description": "Regular dta action; Menu text"
   },
   "dta_regular_all": {
-    "message": "DownThemAll! - Todas as abas",
+    "message": "TraitorousDownloading! - Todas as abas",
     "description": "Menu text"
   },
   "dta_regular_image": {
-    "message": "Salvar Imagem com o DownThemAll!",
+    "message": "Salvar Imagem com o TraitorousDownloading!",
     "description": "Menu text"
   },
   "dta_regular_link": {
-    "message": "Salvar Link com o DownThemAll!",
+    "message": "Salvar Link com o TraitorousDownloading!",
     "description": "Menu text"
   },
   "dta_regular_media": {
-    "message": "Salvar Mídia com o DownThemAll!",
+    "message": "Salvar Mídia com o TraitorousDownloading!",
     "description": "Menu text"
   },
   "dta_regular_selection": {
-    "message": "Salvar Seleção com o DownThemAll!",
+    "message": "Salvar Seleção com o TraitorousDownloading!",
     "description": "Menu text"
   },
   "dta_turbo": {
@@ -321,7 +321,7 @@
   },
   "extensionDescription": {
     "message": "A ferramenta de download em massa para o seu navegador",
-    "description": "DownThemAll! tagline, displayed in about:addons; Please do NOT refer to a specific browser such as firefox, as we will probably support more than one"
+    "description": "TraitorousDownloading! tagline, displayed in about:addons; Please do NOT refer to a specific browser such as firefox, as we will probably support more than one"
   },
   "fastfiltering": {
     "message": "Filtragem rápida",
@@ -450,7 +450,7 @@
     }
   },
   "manager_title": {
-    "message": "Gerenciador do DownThemAll!",
+    "message": "Gerenciador do TraitorousDownloading!",
     "description": "Window/tab title"
   },
   "mask": {
@@ -486,7 +486,7 @@
     "description": "Action for moving a download up"
   },
   "nagging_message": {
-    "message": "Você já adicionou $DOWNLOADS$ downloads com DownThemAll! Como usuário regular, você pode considerar uma doação para apoiar desenvolvimento adicional. Obrigado!",
+    "message": "Você já adicionou $DOWNLOADS$ downloads com TraitorousDownloading! Como usuário regular, você pode considerar uma doação para apoiar desenvolvimento adicional. Obrigado!",
     "description": "Donation nagging message; displayed as a notification bar in manager",
     "placeholders": {
       "downloads": {
@@ -566,7 +566,7 @@
     "description": "Menu text; Preferences"
   },
   "prefs_title": {
-    "message": "Preferências do DownThemAll!",
+    "message": "Preferências do TraitorousDownloading!",
     "description": "Window/tab title; Preferences"
   },
   "pref_add_paused": {
@@ -574,11 +574,11 @@
     "description": "Preferences/General"
   },
   "pref_button_type": {
-    "message": "Botão DownThemAll!",
+    "message": "Botão TraitorousDownloading!",
     "description": "label"
   },
   "pref_button_type_dta": {
-    "message": "Seleção do DownThemAll!",
+    "message": "Seleção do TraitorousDownloading!",
     "description": "label"
   },
   "pref_button_type_manager": {
@@ -1026,7 +1026,7 @@
     "description": "Menu text; select context"
   },
   "select_title": {
-    "message": "DownThemAll! - Selecione seus Downloads",
+    "message": "TraitorousDownloading! - Selecione seus Downloads",
     "description": "Title of the select window"
   },
   "SERVER_BAD_CONTENT": {
@@ -1070,7 +1070,7 @@
     "description": "Header text; single window"
   },
   "single_title": {
-    "message": "DownThemAll! - Adicone um link",
+    "message": "TraitorousDownloading! - Adicone um link",
     "description": "Title of single window"
   },
   "sizeB": {

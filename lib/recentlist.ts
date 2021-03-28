@@ -122,3 +122,8 @@ export const SUBFOLDER = new RecentList("subfolder", [
   "downthemall",
 ]);
 SUBFOLDER.init().catch(console.error);
+
+export const SERVER = new RecentList("server", [
+  "",
+]);
+SERVER.init().catch(console.error);

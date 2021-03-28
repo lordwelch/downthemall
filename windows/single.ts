@@ -4,9 +4,10 @@
 
 import ModalDialog from "../uikit/lib/modal";
 import { _, localize } from "../lib/i18n";
+import { Prefs } from "../lib/prefs";
 // eslint-disable-next-line no-unused-vars
 import { Item, BaseItem } from "../lib/item";
-import { MASK, SUBFOLDER } from "../lib/recentlist";
+import { MASK, SUBFOLDER, SERVER } from "../lib/recentlist";
 import { BatchGenerator } from "../lib/batches";
 import { WindowState } from "./windowstate";
 import { Dropdown } from "./dropdown";
@@ -22,6 +23,7 @@ const PORT = runtime.connect(null, { name: "single" });
 let ITEM: BaseItem;
 let Mask: Dropdown;
 let Subfolder: Dropdown;
+let OServer: Dropdown;
 
 class BatchModalDialog extends ModalDialog {
   private readonly gen: BatchGenerator;
@@ -131,6 +133,11 @@ async function downloadInternal(paused: boolean) {
     return displayError("error.invalidMask");
   }
 
+  const server = OServer.value;
+  if (!server) {
+    throw new Error("error.invalidServer");
+  }
+
   const subfolder = Subfolder.value.trim();
   validateSubFolder(subfolder);
 
@@ -199,6 +206,9 @@ async function downloadInternal(paused: boolean) {
       maskOnce: $<HTMLInputElement>("#maskOnceCheck").checked,
       subfolder,
       subfolderOnce: $<HTMLInputElement>("#subfolderOnceCheck").checked,
+      server,
+      serverOnce: $<HTMLInputElement>("#serverOnceCheck").checked,
+      cookies: $<HTMLInputElement>("#cookiesCheck").checked,
     }
   });
   return null;
@@ -215,9 +225,15 @@ function cancel() {
 
 async function init() {
   await localize(document.documentElement);
-  await Promise.all([MASK.init(), SUBFOLDER.init()]);
+  await Promise.all([MASK.init(), SUBFOLDER.init(), SERVER.init()]);
   Mask = new Dropdown("#mask", MASK.values);
   Subfolder = new Dropdown("#subfolder", SUBFOLDER.values);
+  OServer = new Dropdown("#server", SERVER.values);
+    Prefs.get("cookies").then(checked=>{
+      if ($<HTMLInputElement>("#cookiesCheck").checked != !!checked) {
+        $<HTMLInputElement>("#cookiesCheck").click();
+      }
+    });
 }
 
 addEventListener("DOMContentLoaded", async function dom() {

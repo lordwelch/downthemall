@@ -154,14 +154,14 @@ runtime.onInstalled.addListener(({reason, previousVersion}: OnInstalled) => {
   const major = getMajor(version);
   const prevMajor = getMajor(previousVersion);
   if (reason === "update" && major !== prevMajor) {
-    tabs.create({
-      url: `https://about.downthemall.org/changelog/?cur=${major}&prev=${prevMajor}`,
-    });
+    // tabs.create({
+    //   url: `https://about.downthemall.org/changelog/?cur=${major}&prev=${prevMajor}`,
+    // });
   }
   else if (reason === "install") {
-    tabs.create({
-      url: `https://about.downthemall.org/4.0/?cur=${major}`,
-    });
+    // tabs.create({
+    //   url: `https://about.downthemall.org/4.0/?cur=${major}`,
+    // });
   }
 });
 
@@ -322,7 +322,7 @@ locale.then(() => {
         contexts: ["all", "browser_action", "tools_menu"],
         type: "separator"
       });
-      menuCreate({
+/*      menuCreate({
         id: "DTAManager",
         contexts: ["all", "browser_action", "tools_menu"],
         icons: {
@@ -330,7 +330,7 @@ locale.then(() => {
           32: "/style/button-manager@2x.png",
         },
         title: _("manager.short"),
-      });
+      });*/
       menuCreate({
         id: "DTAPrefs",
         contexts: ["all", "browser_action", "tools_menu"],

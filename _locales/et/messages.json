@@ -232,27 +232,27 @@
     "description": "Download (verb/action); e.g. in single and select buttons"
   },
   "dta_regular": {
-    "message": "DownThemAll!",
+    "message": "TraitorousDownloading!",
     "description": "Regular dta action; Menu text"
   },
   "dta_regular_all": {
-    "message": "DownThemAll! - Kõik kaardid",
+    "message": "TraitorousDownloading! - Kõik kaardid",
     "description": "Menu text"
   },
   "dta_regular_image": {
-    "message": "Salvesta pilt DownThemAll!-iga",
+    "message": "Salvesta pilt TraitorousDownloading!-iga",
     "description": "Menu text"
   },
   "dta_regular_link": {
-    "message": "Salvesta link DownThemAll!-iga",
+    "message": "Salvesta link TraitorousDownloading!-iga",
     "description": "Menu text"
   },
   "dta_regular_media": {
-    "message": "Salvesta meedia DownThemAll!-iga",
+    "message": "Salvesta meedia TraitorousDownloading!-iga",
     "description": "Menu text"
   },
   "dta_regular_selection": {
-    "message": "Salvesta valik DownThemAll!-iga",
+    "message": "Salvesta valik TraitorousDownloading!-iga",
     "description": "Menu text"
   },
   "dta_turbo": {
@@ -321,7 +321,7 @@
   },
   "extensionDescription": {
     "message": "Massallalaadija sinu veebilehitsejale",
-    "description": "DownThemAll! tagline, displayed in about:addons; Please do NOT refer to a specific browser such as firefox, as we will probably support more than one"
+    "description": "TraitorousDownloading! tagline, displayed in about:addons; Please do NOT refer to a specific browser such as firefox, as we will probably support more than one"
   },
   "fastfiltering": {
     "message": "Kiirfiltreerimine",
@@ -450,7 +450,7 @@
     }
   },
   "manager_title": {
-    "message": "DownThemAll! haldur",
+    "message": "TraitorousDownloading! haldur",
     "description": "Window/tab title"
   },
   "mask": {
@@ -486,7 +486,7 @@
     "description": "Action for moving a download up"
   },
   "nagging_message": {
-    "message": "Sa oled praeguseks DownThemAll!-iga lisanud $DOWNLOADS$ allalaadimist! Tavakasutajana võiksid edasise arendamise toetamiseks kaaluda annetamist. Täname!",
+    "message": "Sa oled praeguseks TraitorousDownloading!-iga lisanud $DOWNLOADS$ allalaadimist! Tavakasutajana võiksid edasise arendamise toetamiseks kaaluda annetamist. Täname!",
     "description": "Donation nagging message; displayed as a notification bar in manager",
     "placeholders": {
       "downloads": {
@@ -566,7 +566,7 @@
     "description": "Menu text; Preferences"
   },
   "prefs_title": {
-    "message": "DownThemAll! eelistused",
+    "message": "TraitorousDownloading! eelistused",
     "description": "Window/tab title; Preferences"
   },
   "pref_add_paused": {
@@ -574,11 +574,11 @@
     "description": "Preferences/General"
   },
   "pref_button_type": {
-    "message": "DownThemAll! nupp:",
+    "message": "TraitorousDownloading! nupp:",
     "description": "label"
   },
   "pref_button_type_dta": {
-    "message": "DownThemAll! valik",
+    "message": "TraitorousDownloading! valik",
     "description": "label"
   },
   "pref_button_type_manager": {
@@ -1026,7 +1026,7 @@
     "description": "Menu text; select context"
   },
   "select_title": {
-    "message": "DownThemAll! - Vali oma allalaadimised",
+    "message": "TraitorousDownloading! - Vali oma allalaadimised",
     "description": "Title of the select window"
   },
   "SERVER_BAD_CONTENT": {
@@ -1070,7 +1070,7 @@
     "description": "Header text; single window"
   },
   "single_title": {
-    "message": "DownThemAll! - Lingi lisamine",
+    "message": "TraitorousDownloading! - Lingi lisamine",
     "description": "Title of single window"
   },
   "sizeB": {

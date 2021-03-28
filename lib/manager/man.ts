@@ -17,6 +17,7 @@ import { ManagerPort } from "./port";
 import { Scheduler } from "./scheduler";
 import { Limits } from "./limits";
 import { downloads, runtime, webRequest, CHROME, OPERA } from "../browser";
+import { browser } from "webextension-polyfill-ts";
 
 const US = runtime.getURL("");
 
@@ -261,6 +262,61 @@ export class Manager extends EventEmitter {
     this.manIds.delete(id);
   }
 
+  async prepareItems(items: any[]) {
+    var links = new Array();
+    for (var item of items) {
+      var cookiesToSend = Array();
+      var cs = await browser.cookies.getAll({
+        url: item.url,
+        firstPartyDomain: null,
+      });
+
+      if (item.cookies) {
+        for (var c of cs){
+            cookiesToSend.push({
+                name: c.name,
+                value: c.value,
+                domain: c.domain,
+                // expires: new Date(c.expirationDate * 1000) ?? null,
+                path: c.path,
+                secure: c.secure,
+                httponly: c.httpOnly,
+                // samesite: c.sameSite,
+            });
+        }
+      }
+
+      var status = item.paused ? "Paused":"Queue";
+
+      links.push({
+        description: item.description,
+        filename: item.fileName,
+        mask: item.mask,
+        status: status,
+        postData: item.postData,
+        subdir: item.subfolder,
+        title: item.title,
+        url: item.usable,
+        referrer: item.usableReferrer,
+        cookies: cookiesToSend,
+      });
+    }
+    return links;
+  }
+
+  addNewDownloads(items: any[]) {
+    if (!items || !items.length) {
+      return;
+    }
+    this.prepareItems(items).then(links => {
+      var xhr = new XMLHttpRequest();
+      xhr.open("POST", items[0].server);
+      xhr.setRequestHeader("Content-Type", "application/javascript");
+      xhr.send(JSON.stringify(links));
+    });
+  }
+
+/*
   addNewDownloads(items: any[]) {
     if (!items || !items.length) {
       return;
@@ -283,6 +339,7 @@ export class Manager extends EventEmitter {
     this.save(items);
     this.startNext();
   }
+*/
 
   setDirty(item: Download) {
     this.dirty.add(item);

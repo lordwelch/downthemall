@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title data-i18n="select.title">DownThemAll! - Select your links</title>
+  <title data-i18n="select.title">TraitorousDownloading! - Select your links</title>
   <style>
     @import "/uikit/css/virtualtable.css";
     @import "/uikit/css/modal.css";
@@ -73,6 +73,17 @@
     <button id="maskButton" class="icon-tags"></button>
     <label>
       <input type="checkbox" id="maskOnceCheck">
+      <span data-i18n="useonlyonce">Use only once</span>
+    </label>
+
+    <h2 data-i18n="server">Server</h2>
+    <input id="server">
+    <label id="cookies">
+      <input type="checkbox" id="cookiesCheck">
+      <span data-i18n="cookies">Send cookies to server</span>
+    </label>
+    <label>
+      <input type="checkbox" id="serverOnceCheck">
       <span data-i18n="useonlyonce">Use only once</span>
     </label>
   </section>

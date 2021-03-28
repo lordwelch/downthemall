@@ -232,27 +232,27 @@
     "description": "Download (verb/action); e.g. in single and select buttons"
   },
   "dta_regular": {
-    "message": "DownThemAll!",
+    "message": "TraitorousDownloading!",
     "description": "Regular dta action; Menu text"
   },
   "dta_regular_all": {
-    "message": "DownThemAll! - Все вкладки",
+    "message": "TraitorousDownloading! - Все вкладки",
     "description": "Menu text"
   },
   "dta_regular_image": {
-    "message": "Закачать изображение через DownThemAll!",
+    "message": "Закачать изображение через TraitorousDownloading!",
     "description": "Menu text"
   },
   "dta_regular_link": {
-    "message": "Закачать ссылку через DownThemAll!",
+    "message": "Закачать ссылку через TraitorousDownloading!",
     "description": "Menu text"
   },
   "dta_regular_media": {
-    "message": "Закачать медиа через DownThemAll!",
+    "message": "Закачать медиа через TraitorousDownloading!",
     "description": "Menu text"
   },
   "dta_regular_selection": {
-    "message": "Закачать выделенное через DownThemAll!",
+    "message": "Закачать выделенное через TraitorousDownloading!",
     "description": "Menu text"
   },
   "dta_turbo": {
@@ -321,7 +321,7 @@
   },
   "extensionDescription": {
     "message": "Универсальная качалка для вашего браузера",
-    "description": "DownThemAll! tagline, displayed in about:addons; Please do NOT refer to a specific browser such as firefox, as we will probably support more than one"
+    "description": "TraitorousDownloading! tagline, displayed in about:addons; Please do NOT refer to a specific browser such as firefox, as we will probably support more than one"
   },
   "fastfiltering": {
     "message": "Быстрый фильтр",
@@ -450,7 +450,7 @@
     }
   },
   "manager_title": {
-    "message": "DownThemAll! Менеджер",
+    "message": "TraitorousDownloading! Менеджер",
     "description": "Window/tab title"
   },
   "mask": {
@@ -486,7 +486,7 @@
     "description": "Action for moving a download up"
   },
   "nagging_message": {
-    "message": "Добавлено $DOWNLOADS$ закачек через DownThemAll! на текущий момент! Как постоянный пользователь подумайте над тем чтобы поддержать дальнейшую разработку. Спасибо!",
+    "message": "Добавлено $DOWNLOADS$ закачек через TraitorousDownloading! на текущий момент! Как постоянный пользователь подумайте над тем чтобы поддержать дальнейшую разработку. Спасибо!",
     "description": "Donation nagging message; displayed as a notification bar in manager",
     "placeholders": {
       "downloads": {
@@ -566,7 +566,7 @@
     "description": "Menu text; Preferences"
   },
   "prefs_title": {
-    "message": "Настройки DownThemAll!",
+    "message": "Настройки TraitorousDownloading!",
     "description": "Window/tab title; Preferences"
   },
   "pref_add_paused": {
@@ -574,11 +574,11 @@
     "description": "Preferences/General"
   },
   "pref_button_type": {
-    "message": "Кнопка DownThemAll!",
+    "message": "Кнопка TraitorousDownloading!",
     "description": "label"
   },
   "pref_button_type_dta": {
-    "message": "DownThemAll! выделенного",
+    "message": "TraitorousDownloading! выделенного",
     "description": "label"
   },
   "pref_button_type_manager": {
@@ -1026,7 +1026,7 @@
     "description": "Menu text; select context"
   },
   "select_title": {
-    "message": "DownThemAll! - Выбрать ваши закачки",
+    "message": "TraitorousDownloading! - Выбрать ваши закачки",
     "description": "Title of the select window"
   },
   "SERVER_BAD_CONTENT": {
@@ -1070,7 +1070,7 @@
     "description": "Header text; single window"
   },
   "single_title": {
-    "message": "DownThemAll! - Добавить ссылку",
+    "message": "TraitorousDownloading! - Добавить ссылку",
     "description": "Title of single window"
   },
   "sizeB": {

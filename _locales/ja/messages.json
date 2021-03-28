@@ -232,27 +232,27 @@
     "description": "Download (verb/action); e.g. in single and select buttons"
   },
   "dta_regular": {
-    "message": "DownThemAll!",
+    "message": "TraitorousDownloading!",
     "description": "Regular dta action; Menu text"
   },
   "dta_regular_all": {
-    "message": "DownThemAll! - 全てのタブ",
+    "message": "TraitorousDownloading! - 全てのタブ",
     "description": "Menu text"
   },
   "dta_regular_image": {
-    "message": "画像をDownThemAll! で保存する",
+    "message": "画像をTraitorousDownloading! で保存する",
     "description": "Menu text"
   },
   "dta_regular_link": {
-    "message": "リンク先をDownThemAll! で保存する",
+    "message": "リンク先をTraitorousDownloading! で保存する",
     "description": "Menu text"
   },
   "dta_regular_media": {
-    "message": "メディアをDownThemAll! で保存する",
+    "message": "メディアをTraitorousDownloading! で保存する",
     "description": "Menu text"
   },
   "dta_regular_selection": {
-    "message": "選択項目をDownThemAll! で保存する",
+    "message": "選択項目をTraitorousDownloading! で保存する",
     "description": "Menu text"
   },
   "dta_turbo": {
@@ -321,7 +321,7 @@
   },
   "extensionDescription": {
     "message": "ブラウザ用マスダウンローダー",
-    "description": "DownThemAll! tagline, displayed in about:addons; Please do NOT refer to a specific browser such as firefox, as we will probably support more than one"
+    "description": "TraitorousDownloading! tagline, displayed in about:addons; Please do NOT refer to a specific browser such as firefox, as we will probably support more than one"
   },
   "fastfiltering": {
     "message": "高速フィルタリング",
@@ -450,7 +450,7 @@
     }
   },
   "manager_title": {
-    "message": "DownThemAll! マネージャ",
+    "message": "TraitorousDownloading! マネージャ",
     "description": "Window/tab title"
   },
   "mask": {
@@ -486,7 +486,7 @@
     "description": "Action for moving a download up"
   },
   "nagging_message": {
-    "message": "これまでDownThemAllで$DOWNLOADS$ダウンロードを追加しました！ 通常のユーザーとして、さらなる開発を支援するために寄付を検討することができます。 皆様のご協力、心よりお待ち致しております。",
+    "message": "これまでTraitorousDownloadingで$DOWNLOADS$ダウンロードを追加しました！ 通常のユーザーとして、さらなる開発を支援するために寄付を検討することができます。 皆様のご協力、心よりお待ち致しております。",
     "description": "Donation nagging message; displayed as a notification bar in manager",
     "placeholders": {
       "downloads": {
@@ -566,7 +566,7 @@
     "description": "Menu text; Preferences"
   },
   "prefs_title": {
-    "message": "DownThemAll! 設定",
+    "message": "TraitorousDownloading! 設定",
     "description": "Window/tab title; Preferences"
   },
   "pref_add_paused": {
@@ -574,7 +574,7 @@
     "description": "Preferences/General"
   },
   "pref_button_type": {
-    "message": "DownThemAll! ｱｲｺﾝｸﾘｯｸ時:",
+    "message": "TraitorousDownloading! ｱｲｺﾝｸﾘｯｸ時:",
     "description": "label"
   },
   "pref_button_type_dta": {
@@ -1026,7 +1026,7 @@
     "description": "Menu text; select context"
   },
   "select_title": {
-    "message": "DownThemAll! - ダウンロードの選択",
+    "message": "TraitorousDownloading! - ダウンロードの選択",
     "description": "Title of the select window"
   },
   "SERVER_BAD_CONTENT": {
@@ -1070,7 +1070,7 @@
     "description": "Header text; single window"
   },
   "single_title": {
-    "message": "DownThemAll! - リンクを追加",
+    "message": "TraitorousDownloading! - リンクを追加",
     "description": "Title of single window"
   },
   "sizeB": {

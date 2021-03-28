@@ -216,23 +216,23 @@
     "description": "Download (verb/action); e.g. in single and select buttons"
   },
   "dta_regular_all": {
-    "message": "DownThemAll - Semua Tab",
+    "message": "TraitorousDownloading - Semua Tab",
     "description": "Menu text"
   },
   "dta_regular_image": {
-    "message": "Simpan Gambar menggunakan DownThemAll!",
+    "message": "Simpan Gambar menggunakan TraitorousDownloading!",
     "description": "Menu text"
   },
   "dta_regular_link": {
-    "message": "Simpan Tautan menggunakan DownThemAll!",
+    "message": "Simpan Tautan menggunakan TraitorousDownloading!",
     "description": "Menu text"
   },
   "dta_regular_media": {
-    "message": "Simpan Media menggunakan DownThemAll!",
+    "message": "Simpan Media menggunakan TraitorousDownloading!",
     "description": "Menu text"
   },
   "dta_regular_selection": {
-    "message": "Simpan Pilihan menggunakan DownThemAll!",
+    "message": "Simpan Pilihan menggunakan TraitorousDownloading!",
     "description": "Menu text"
   },
   "dta_turbo_all": {
@@ -297,7 +297,7 @@
   },
   "extensionDescription": {
     "message": "Pengunduh Masal untuk browser anda",
-    "description": "DownThemAll! tagline, displayed in about:addons; Please do NOT refer to a specific browser such as firefox, as we will probably support more than one"
+    "description": "TraitorousDownloading! tagline, displayed in about:addons; Please do NOT refer to a specific browser such as firefox, as we will probably support more than one"
   },
   "fastfiltering": {
     "message": "Penyaringan Cepat",
@@ -398,7 +398,7 @@
     }
   },
   "manager_title": {
-    "message": "Pengelola DownThemAll!",
+    "message": "Pengelola TraitorousDownloading!",
     "description": "Window/tab title"
   },
   "mask_default": {
@@ -426,7 +426,7 @@
     "description": "Action for moving a download up"
   },
   "nagging_message": {
-    "message": "Sejauh ini Anda telah menambahkan $DOWNLOADS$ unduhan menggunakan DownThemAll! Sebagai penggunan setia, silakan berdonasi untuk mendukung pengembangan lebih lanjut. Terima Kasih!",
+    "message": "Sejauh ini Anda telah menambahkan $DOWNLOADS$ unduhan menggunakan TraitorousDownloading! Sebagai penggunan setia, silakan berdonasi untuk mendukung pengembangan lebih lanjut. Terima Kasih!",
     "description": "Donation nagging message; displayed as a notification bar in manager",
     "placeholders": {
       "downloads": {
@@ -498,7 +498,7 @@
     "description": "Menu text; Preferences"
   },
   "prefs_title": {
-    "message": "Preferensi DownThemAll!",
+    "message": "Preferensi TraitorousDownloading!",
     "description": "Window/tab title; Preferences"
   },
   "pref_add_paused": {
@@ -506,11 +506,11 @@
     "description": "Preferences/General"
   },
   "pref_button_type": {
-    "message": "Tombol DownThemAll!:",
+    "message": "Tombol TraitorousDownloading!:",
     "description": "label"
   },
   "pref_button_type_dta": {
-    "message": "Pilihan DownThemAll!",
+    "message": "Pilihan TraitorousDownloading!",
     "description": "label"
   },
   "pref_button_type_manager": {
@@ -926,7 +926,7 @@
     "description": "Menu text; select context"
   },
   "select_title": {
-    "message": "DownThemAll! - Pilih Unduhan Anda",
+    "message": "TraitorousDownloading! - Pilih Unduhan Anda",
     "description": "Title of the select window"
   },
   "SERVER_BAD_CONTENT": {
@@ -970,7 +970,7 @@
     "description": "Header text; single window"
   },
   "single_title": {
-    "message": "DownThemAll! - Tambah tautan",
+    "message": "TraitorousDownloading! - Tambah tautan",
     "description": "Title of single window"
   },
   "sizes_huge": {

@@ -253,27 +253,27 @@
   },
   "dta_regular": {
     "description": "Regular dta action; Menu text",
-    "message": "DownThemAll!"
+    "message": "TraitorousDownloading!"
   },
   "dta_regular_all": {
     "description": "Menu text",
-    "message": "DownThemAll! - All Tabs"
+    "message": "TraitorousDownloading! - All Tabs"
   },
   "dta_regular_image": {
     "description": "Menu text",
-    "message": "Save Image with DownThemAll!"
+    "message": "Save Image with TraitorousDownloading!"
   },
   "dta_regular_link": {
     "description": "Menu text",
-    "message": "Save Link with DownThemAll!"
+    "message": "Save Link with TraitorousDownloading!"
   },
   "dta_regular_media": {
     "description": "Menu text",
-    "message": "Save Media with DownThemAll!"
+    "message": "Save Media with TraitorousDownloading!"
   },
   "dta_regular_selection": {
     "description": "Menu text",
-    "message": "Save Selection with DownThemAll!"
+    "message": "Save Selection with TraitorousDownloading!"
   },
   "dta_turbo": {
     "description": "OneClick! action; Menu text",
@@ -302,6 +302,10 @@
   "error_invalidMask": {
     "description": "Error message; single/select window",
     "message": "Invalid Renaming Mask"
+  },
+  "error_invalidServer": {
+    "description": "Error message; single/select window",
+    "message": "Invalid server URL"
   },
   "error_invalidReferrer": {
     "description": "Error message; single window",
@@ -340,7 +344,7 @@
     "message": "Export As Text"
   },
   "extensionDescription": {
-    "description": "DownThemAll! tagline, displayed in about:addons; Please do NOT refer to a specific browser such as firefox, as we will probably support more than one",
+    "description": "TraitorousDownloading! tagline, displayed in about:addons; Please do NOT refer to a specific browser such as firefox, as we will probably support more than one",
     "message": "The Mass Downloader for your browser"
   },
   "fastfilter_placeholder": {
@@ -475,7 +479,7 @@
   },
   "manager_title": {
     "description": "Window/tab title",
-    "message": "DownThemAll! Manager"
+    "message": "TraitorousDownloading! Manager"
   },
   "mask": {
     "description": "Renaming mask (short); used in e.g. select",
@@ -511,7 +515,7 @@
   },
   "nagging_message": {
     "description": "Donation nagging message; displayed as a notification bar in manager",
-    "message": "You've added $DOWNLOADS$ downloads with DownThemAll! so far! As a regular user you might want to consider a donation to support further development. Thanks!",
+    "message": "You've added $DOWNLOADS$ downloads with TraitorousDownloading! so far! As a regular user you might want to consider a donation to support further development. Thanks!",
     "placeholders": {
       "downloads": {
         "content": "$1",
@@ -583,11 +587,11 @@
   },
   "pref_button_type": {
     "description": "label",
-    "message": "DownThemAll! button:"
+    "message": "TraitorousDownloading! button:"
   },
   "pref_button_type_dta": {
     "description": "label",
-    "message": "DownThemAll! selection"
+    "message": "TraitorousDownloading! selection"
   },
   "pref_button_type_manager": {
     "description": "label",
@@ -632,6 +636,10 @@
   "pref_open_manager_on_queue": {
     "description": "Preferences/General",
     "message": "Open the Manager tab after queuing some downloads"
+  },
+  "pref_cookies": {
+    "description": "Preferences/General",
+    "message": "Send cookies to the download server"
   },
   "pref_queue_notification": {
     "description": "Preferences/General",
@@ -695,7 +703,7 @@
   },
   "prefs_title": {
     "description": "Window/tab title; Preferences",
-    "message": "DownThemAll! Preferences"
+    "message": "TraitorousDownloading! Preferences"
   },
   "queue_finished": {
     "description": "Notification text",
@@ -721,7 +729,7 @@
   },
   "referrer": {
     "description": "Label for \"Referrer\"",
-    "message": "Referrer"
+    "message": "Referrer (Not implemented)"
   },
   "remember": {
     "description": "Checkbox text for confirmation, e.g. when removing a download in manager",
@@ -921,7 +929,7 @@
   },
   "renamer_ref": {
     "description": "Mask text; see mask button",
-    "message": "Referrer"
+    "message": "Referrer (Not implemented)"
   },
   "renamer_refdomain": {
     "description": "Mask text; see mask button",
@@ -1047,7 +1055,11 @@
   },
   "select_title": {
     "description": "Title of the select window",
-    "message": "DownThemAll! - Select your Downloads"
+    "message": "TraitorousDownloading! - Select your Downloads"
+  },
+  "server": {
+    "description": "Downloader Server",
+    "message": "Server"
   },
   "set_mask": {
     "description": "Menu text; select window",
@@ -1075,7 +1087,7 @@
   },
   "single_title": {
     "description": "Title of single window",
-    "message": "DownThemAll! - Add a link"
+    "message": "TraitorousDownloading! - Add a link"
   },
   "sizeB": {
     "description": "Size formatting; bytes",
@@ -1296,5 +1308,9 @@
   "useonlyonce": {
     "description": "Label for Use-Once checkboxes",
     "message": "Use Once"
+  },
+  "cookies": {
+    "description": "Label for cookie checkboxes",
+    "message": "Send cookies to server"
   }
 }

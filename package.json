@@ -1,7 +1,7 @@
 {
-  "name": "dtalite",
+  "name": "tdl",
   "version": "4.0.0",
-  "description": "DownThemAll! lite",
+  "description": "TraitorousDownloading!",
   "main": "main.js",
   "directories": {
     "lib": "lib"
@@ -38,6 +38,7 @@
     "localforage": "^1.9.0",
     "psl": "^1.4.0",
     "webextension-polyfill": "^0.5.0",
+    "webextension-polyfill-ts": "^0.22.0",
     "whatwg-mimetype": "^2.3.0"
   }
 }

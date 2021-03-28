@@ -11,7 +11,7 @@ import { getManager } from "./manager/man";
 import { select } from "./select";
 import { single } from "./single";
 import { Notification } from "./notifications";
-import { MASK, FASTFILTER, SUBFOLDER } from "./recentlist";
+import { MASK, FASTFILTER, SUBFOLDER, SERVER } from "./recentlist";
 import { openManager } from "./windowutils";
 import { _ } from "./i18n";
 
@@ -20,7 +20,9 @@ const MAX_BATCH = 10000;
 export interface QueueOptions {
   mask?: string;
   subfolder?: string;
+  server?: string;
   paused?: boolean;
+  cookies?: boolean;
 }
 
 export const API = new class APIImpl {
@@ -32,8 +34,10 @@ export const API = new class APIImpl {
     await Promise.all([MASK.init(), SUBFOLDER.init()]);
     const {mask = MASK.current} = options;
     const {subfolder = SUBFOLDER.current} = options;
+    const {server = SERVER.current} = options;
 
     const {paused = false} = options;
+    const {cookies = false} = options;
     const defaults: any = {
       _idx: 0,
       get idx() {
@@ -49,8 +53,10 @@ export const API = new class APIImpl {
       postData: null,
       mask,
       subfolder,
+      server,
       date: Date.now(),
-      paused
+      paused,
+      cookies,
     };
     let currentBatch = await Prefs.get("currentBatch", 0);
     const initialBatch = currentBatch;
@@ -80,7 +86,7 @@ export const API = new class APIImpl {
         new Notification(null, _("queued-downloads", items.length));
       }
     }
-    if (await Prefs.get("open-manager-on-queue")) {
+    if (false && await Prefs.get("open-manager-on-queue")) {
       await openManager(false);
     }
   }
@@ -123,6 +129,10 @@ export const API = new class APIImpl {
     if (typeof options.subfolder === "string" && !options.subfolderOnce) {
       await SUBFOLDER.init();
       await SUBFOLDER.push(options.subfolder);
+    }
+    if (typeof options.server === "string" && !options.serverOnce) {
+      await SERVER.init();
+      await SERVER.push(options.server);
     }
     if (typeof options.type === "string") {
       await Prefs.set("last-type", options.type);

@@ -7,7 +7,7 @@ import { ContextMenu } from "./contextmenu";
 import { iconForPath } from "../lib/windowutils";
 import { _, localize } from "../lib/i18n";
 import { Prefs } from "../lib/prefs";
-import { MASK, FASTFILTER, SUBFOLDER } from "../lib/recentlist";
+import { MASK, FASTFILTER, SUBFOLDER, SERVER } from "../lib/recentlist";
 import { WindowState } from "./windowstate";
 import { Dropdown } from "./dropdown";
 import { Keys } from "./keys";
@@ -43,6 +43,7 @@ const NUM_FILTER_CLASSES = 8;
 
 let Table: SelectionTable;
 let Mask: Dropdown;
+let OServer: Dropdown;
 let FastFilter: Dropdown;
 let Subfolder: Dropdown;
 
@@ -433,6 +434,12 @@ class SelectionTable extends VirtualTable {
       return true;
     });
 
+    Prefs.get("cookies").then(checked=>{
+      if ($<HTMLInputElement>("#cookiesCheck").checked != !!checked) {
+        $<HTMLInputElement>("#cookiesCheck").click();
+      }
+    });
+
     this.init();
     this.switchTab(type);
   }
@@ -678,6 +685,10 @@ async function download(paused = false) {
     if (!mask) {
       throw new Error("error.invalidMask");
     }
+    const server = OServer.value;
+    if (!server) {
+      throw new Error("error.invalidServer");
+    }
     const subfolder = Subfolder.value;
     validateSubfolder(subfolder);
 
@@ -716,6 +727,9 @@ async function download(paused = false) {
         fastOnce: $<HTMLInputElement>("#fastOnceCheck").checked,
         subfolder,
         subfolderOnce: $<HTMLInputElement>("#subfolderOnceCheck").checked,
+        server,
+        serverOnce: $<HTMLInputElement>("#serverOnceCheck").checked,
+        cookies: $<HTMLInputElement>("#cookiesCheck").checked,
       }
     });
   }
@@ -791,7 +805,9 @@ function cancel() {
 }
 
 async function init() {
-  await Promise.all([MASK.init(), FASTFILTER.init(), SUBFOLDER.init()]);
+  await Promise.all([MASK.init(), FASTFILTER.init(), SUBFOLDER.init(), SERVER.init()]);
+  OServer = new Dropdown("#server", SERVER.values);
+  OServer.on("changed", clearErrors);
   Mask = new Dropdown("#mask", MASK.values);
   Mask.on("changed", clearErrors);
   FastFilter = new Dropdown("#fast", FASTFILTER.values);

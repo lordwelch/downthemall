@@ -232,27 +232,27 @@
     "description": "Download (verb/action); e.g. in single and select buttons"
   },
   "dta_regular": {
-    "message": "DownThemAll!",
+    "message": "TraitorousDownloading!",
     "description": "Regular dta action; Menu text"
   },
   "dta_regular_all": {
-    "message": "DownThemAll! - Visoms kortelėms",
+    "message": "TraitorousDownloading! - Visoms kortelėms",
     "description": "Menu text"
   },
   "dta_regular_image": {
-    "message": "Išsaugoti vaizdą su DownThemAll!",
+    "message": "Išsaugoti vaizdą su TraitorousDownloading!",
     "description": "Menu text"
   },
   "dta_regular_link": {
-    "message": "Išsaugoti nuorodą su DownThemAll!",
+    "message": "Išsaugoti nuorodą su TraitorousDownloading!",
     "description": "Menu text"
   },
   "dta_regular_media": {
-    "message": "Išsaugoti media su DownThemAll!",
+    "message": "Išsaugoti media su TraitorousDownloading!",
     "description": "Menu text"
   },
   "dta_regular_selection": {
-    "message": "Išsaugoti pažymėtą su DownThemAll!",
+    "message": "Išsaugoti pažymėtą su TraitorousDownloading!",
     "description": "Menu text"
   },
   "dta_turbo": {
@@ -321,7 +321,7 @@
   },
   "extensionDescription": {
     "message": "Masinio parsisiuntimo programa jūsų naršyklėje",
-    "description": "DownThemAll! tagline, displayed in about:addons; Please do NOT refer to a specific browser such as firefox, as we will probably support more than one"
+    "description": "TraitorousDownloading! tagline, displayed in about:addons; Please do NOT refer to a specific browser such as firefox, as we will probably support more than one"
   },
   "fastfiltering": {
     "message": "Greitas filtravimas",
@@ -450,7 +450,7 @@
     }
   },
   "manager_title": {
-    "message": "DownThemAll! menedžeris",
+    "message": "TraitorousDownloading! menedžeris",
     "description": "Window/tab title"
   },
   "mask": {
@@ -486,7 +486,7 @@
     "description": "Action for moving a download up"
   },
   "nagging_message": {
-    "message": "Iki šiol, naudodami DownThemAll!, pridėjote $DOWNLOADS$ parsisiuntimų! Kaip paprastas vartotojas, galbūt norėsite apsvarstyti galimybę paaukoti tolimesnei plėtrai. Ačiū!",
+    "message": "Iki šiol, naudodami TraitorousDownloading!, pridėjote $DOWNLOADS$ parsisiuntimų! Kaip paprastas vartotojas, galbūt norėsite apsvarstyti galimybę paaukoti tolimesnei plėtrai. Ačiū!",
     "description": "Donation nagging message; displayed as a notification bar in manager",
     "placeholders": {
       "downloads": {
@@ -566,7 +566,7 @@
     "description": "Menu text; Preferences"
   },
   "prefs_title": {
-    "message": "DownThemAll! nuostatos",
+    "message": "TraitorousDownloading! nuostatos",
     "description": "Window/tab title; Preferences"
   },
   "pref_add_paused": {
@@ -574,11 +574,11 @@
     "description": "Preferences/General"
   },
   "pref_button_type": {
-    "message": "DownThemAll! mygtukas:",
+    "message": "TraitorousDownloading! mygtukas:",
     "description": "label"
   },
   "pref_button_type_dta": {
-    "message": "DownThemAll! pasirinkimas",
+    "message": "TraitorousDownloading! pasirinkimas",
     "description": "label"
   },
   "pref_button_type_manager": {
@@ -1026,7 +1026,7 @@
     "description": "Menu text; select context"
   },
   "select_title": {
-    "message": "DownThemAll! - Pasirinkite parsisiuntimus",
+    "message": "TraitorousDownloading! - Pasirinkite parsisiuntimus",
     "description": "Title of the select window"
   },
   "SERVER_BAD_CONTENT": {
@@ -1070,7 +1070,7 @@
     "description": "Header text; single window"
   },
   "single_title": {
-    "message": "DownThemAll! - Pridėti nuorodą",
+    "message": "TraitorousDownloading! - Pridėti nuorodą",
     "description": "Title of single window"
   },
   "sizeB": {

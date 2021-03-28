@@ -232,27 +232,27 @@
     "description": "Download (verb/action); e.g. in single and select buttons"
   },
   "dta_regular": {
-    "message": "DownThemAll!",
+    "message": "TraitorousDownloading!",
     "description": "Regular dta action; Menu text"
   },
   "dta_regular_all": {
-    "message": "DownThemAll! - Összes lap",
+    "message": "TraitorousDownloading! - Összes lap",
     "description": "Menu text"
   },
   "dta_regular_image": {
-    "message": "Kép mentése a DownThemAll-al!",
+    "message": "Kép mentése a TraitorousDownloading-al!",
     "description": "Menu text"
   },
   "dta_regular_link": {
-    "message": "Hivatkozás mentése DownThemAll-al",
+    "message": "Hivatkozás mentése TraitorousDownloading-al",
     "description": "Menu text"
   },
   "dta_regular_media": {
-    "message": "Média mentése DownThemAll-al",
+    "message": "Média mentése TraitorousDownloading-al",
     "description": "Menu text"
   },
   "dta_regular_selection": {
-    "message": "Kiválasztás mentése DownThemAll-al",
+    "message": "Kiválasztás mentése TraitorousDownloading-al",
     "description": "Menu text"
   },
   "dta_turbo": {
@@ -321,7 +321,7 @@
   },
   "extensionDescription": {
     "message": "A tömeges letöltő a böngésződ számára",
-    "description": "DownThemAll! tagline, displayed in about:addons; Please do NOT refer to a specific browser such as firefox, as we will probably support more than one"
+    "description": "TraitorousDownloading! tagline, displayed in about:addons; Please do NOT refer to a specific browser such as firefox, as we will probably support more than one"
   },
   "fastfiltering": {
     "message": "Gyors szűrés",
@@ -450,7 +450,7 @@
     }
   },
   "manager_title": {
-    "message": "DownThemAll! kezelő",
+    "message": "TraitorousDownloading! kezelő",
     "description": "Window/tab title"
   },
   "mask": {
@@ -486,7 +486,7 @@
     "description": "Action for moving a download up"
   },
   "nagging_message": {
-    "message": "Eddig $DOWNLOADS$ letöltést adtál hozzá a DownThemAll!-hoz! Gyakori felhasználóként megfontolhatnád a további fejlesztés támogatását. Köszönöm!",
+    "message": "Eddig $DOWNLOADS$ letöltést adtál hozzá a TraitorousDownloading!-hoz! Gyakori felhasználóként megfontolhatnád a további fejlesztés támogatását. Köszönöm!",
     "description": "Donation nagging message; displayed as a notification bar in manager",
     "placeholders": {
       "downloads": {
@@ -566,7 +566,7 @@
     "description": "Menu text; Preferences"
   },
   "prefs_title": {
-    "message": "DownThemAll! beállításai",
+    "message": "TraitorousDownloading! beállításai",
     "description": "Window/tab title; Preferences"
   },
   "pref_add_paused": {
@@ -574,11 +574,11 @@
     "description": "Preferences/General"
   },
   "pref_button_type": {
-    "message": "DownThemAll gomb:",
+    "message": "TraitorousDownloading gomb:",
     "description": "label"
   },
   "pref_button_type_dta": {
-    "message": "DownThemAll választás",
+    "message": "TraitorousDownloading választás",
     "description": "label"
   },
   "pref_button_type_manager": {
@@ -1026,7 +1026,7 @@
     "description": "Menu text; select context"
   },
   "select_title": {
-    "message": "DownThemAll! - Válaszd ki a letöltéseidet",
+    "message": "TraitorousDownloading! - Válaszd ki a letöltéseidet",
     "description": "Title of the select window"
   },
   "SERVER_BAD_CONTENT": {
@@ -1070,7 +1070,7 @@
     "description": "Header text; single window"
   },
   "single_title": {
-    "message": "DownThemAll! - Adj hozzá egy hivatkozást",
+    "message": "TraitorousDownloading! - Adj hozzá egy hivatkozást",
     "description": "Title of single window"
   },
   "sizeB": {

@@ -32,7 +32,8 @@ const OPTIONPROPS = Object.freeze([
   "startDate",
   "private",
   "postData",
-  "paused"
+  "paused",
+  "server", "cookies",
 ]);
 
 function maybeAssign(options: any, what: any) {
